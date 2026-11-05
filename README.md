@@ -1,5 +1,19 @@
 # 🧠 Arquiteto de Agentes de IA — Skill v2.0.0
 
+## 📥 Download da Skill v2.0.0
+
+**[Baixar Skill Arquiteto de Agentes de IA PRO — v2.0.0](https://github.com/madson-cabral/skill-arquiteto-agentes-ia/releases/download/v2.0.0/skill-arquiteto-agentes-ia-v2.0.0.zip)**
+
+## 📁 Exemplos e documentação
+
+- [Exemplo Python](examples/python-minimal/main.py)
+- [Testes Python](examples/python-minimal/tests/test_agent.py)
+- [Exemplo TypeScript](examples/typescript-minimal/)
+- [Arquitetura e contratos](references/ARQUITETURA-E-CONTRATOS.md)
+- [Segurança e avaliações](references/SEGURANCA-E-EVALS.md)
+
+Os exemplos demonstram conceitos de arquitetura e execução de ferramentas sem conexão com modelos de IA reais.
+
 Skill para orientar GPTs e agentes compatíveis no **projeto, implementação, ensino, evolução e auditoria** de sistemas de IA em Python e TypeScript.
 
 **Novidades v2.0:** arquitetura proporcional ao problema, MCP e function calling, RAG opcional, multiagentes quando justificados, guardrails por código, validação de ferramentas, política de aprovação humana, observabilidade, evals e exemplos demonstrativos executáveis.
