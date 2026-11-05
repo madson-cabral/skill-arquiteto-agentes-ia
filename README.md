@@ -1,60 +1,29 @@
-# 🧠 Skill Arquiteto de Agentes de IA
+# 🧠 Arquiteto de Agentes de IA — Skill v2.0.0
 
-**Crie, organize e evolua projetos de Agentes de Inteligência Artificial com uma arquitetura modular e profissional.**
+Skill para orientar GPTs e agentes compatíveis no **projeto, implementação, ensino, evolução e auditoria** de sistemas de IA em Python e TypeScript.
 
-Uma skill desenvolvida por **Madson Cabral**, para orientar o GPT na construção, análise e organização de agentes inteligentes.
+**Novidades v2.0:** arquitetura proporcional ao problema, MCP e function calling, RAG opcional, multiagentes quando justificados, guardrails por código, validação de ferramentas, política de aprovação humana, observabilidade, evals e exemplos demonstrativos executáveis.
 
-## 🚀 Funcionalidades
+## Comece aqui
+1. Leia `SKILL.md` (instrução operacional).
+2. Consulte `GUIA-DE-USO.md` (instalação e exemplos).
+3. Veja `references/` (segurança e decisões arquiteturais).
+4. Execute os exemplos de `examples/` (demonstrações **sem LLM real**).
 
-- ✅ Estruturação de projetos de IA
-- ✅ Arquitetura modular em Python e TypeScript
-- ✅ Integração com modelos de linguagem (LLMs)
-- ✅ Organização de ferramentas e APIs
-- ✅ Gerenciamento de memória e contexto
-- ✅ Engenharia de prompts
-- ✅ Segurança e proteção de credenciais
-- ✅ Testes automatizados e documentação
-- ✅ Análise e melhoria de projetos existentes
+## Princípio
+**Não adicionar complexidade que o problema não exige.** Segurança e permissões devem existir no código e infraestrutura, não somente em prompts.
 
-## 📁 Estrutura de referência
+## Diferenças da v1.0
+- Mais detalhe em MCP, RAG, multiagentes e contratos.
+- Checklist de segurança e sete cenários mínimos de avaliação.
+- Exemplos Python e TypeScript separados, com execução e escopo explícitos.
+- Regras de compatibilidade, custo, privacidade e aprovação humana.
 
-```text
-ai-agent-project/
-├── README.md
-├── requirements.txt
-├── .env.example
-├── .gitignore
-├── src/
-│   ├── agent/
-│   ├── tools/
-│   ├── models/
-│   ├── prompts/
-│   ├── utils/
-│   └── api/
-├── tests/
-├── data/
-└── main.py
-```
+## Limitação
+A skill não fornece contas, chaves API, acesso a ferramentas ou instalação automática em GPTs personalizados. O código de exemplo não integra um provedor LLM: demonstra controles de arquitetura sem dependências de nuvem.
 
-A estrutura pode ser adaptada conforme a linguagem, os frameworks e as necessidades do projeto.
+## Autor
+Madson Cabral
 
-## 📦 Como utilizar
-
-1. Baixe o arquivo `SKILL.md` deste repositório.
-2. Adicione suas instruções a um GPT personalizado ou ambiente compatível com skills.
-3. Solicite a criação, organização ou análise de um projeto de agente de IA.
-4. Consulte o arquivo `GUIA-DE-USO.md` para orientações adicionais.
-
-## 🎯 Público-alvo
-
-Desenvolvedores, estudantes, profissionais de automação e entusiastas de Inteligência Artificial.
-
-## 📜 Licença
-
-Distribuído sob a licença MIT. Consulte o arquivo `LICENSE`.
-
----
-
-**Desenvolvido por Madson Cabral**
-
-*Compartilhar conhecimento é contribuir para o futuro da Inteligência Artificial.*
+## Licença
+MIT. Consulte `LICENSE`.
